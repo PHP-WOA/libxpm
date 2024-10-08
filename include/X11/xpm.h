@@ -63,7 +63,6 @@
 #define XpmIncludeVersion ((XpmFormat * 100 + XpmVersion) * 100 + XpmRevision)
 
 #ifndef XPM_NUMBERS
-#define FOR_MSW
 #ifdef FOR_MSW
 # define SYSV			/* uses memcpy string.h etc. */
 # include <malloc.h>
